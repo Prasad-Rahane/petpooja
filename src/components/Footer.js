@@ -9,10 +9,10 @@ const Footer = () => {
         Prasad Rahane
       </a>
       <i className="fa-solid fa-copyright"></i>
-      {year}
-      <strong>
-        PetPooja
-      </strong>
+        {year}
+        <strong>
+          PetPooja
+        </strong>
     </div>
   );
 };

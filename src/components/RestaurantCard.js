@@ -12,7 +12,7 @@ const RestaurantCard = ({
 }) => {
   return (
     <div className="card">
-      <img src={IMG_CDN_URL + cloudinaryImageId} alt="card" />
+      <img src={IMG_CDN_URL + cloudinaryImageId} />
       <h3>{name}</h3>
       <h5>{cuisines.join(", ")}</h5>
       <h5>{areaName}</h5>
@@ -26,7 +26,7 @@ const RestaurantCard = ({
                 : { color: "white" }
           }
         >
-          <i className="fa-solid fa-star">★</i>
+          <i className="fa-solid fa-star"></i>
           {avgRatingString}
         </h4>
         <h4>•</h4>
