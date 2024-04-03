@@ -48,7 +48,7 @@ class ProfileRepoClass extends Component {
                 <h1>
                   <a href={repo.html_url} target="_blank" rel='noopener noreferrer'>{repo.name}</a>
                 </h1>
-                <h3 className="repo-des">{repo.description}</h3>
+                <h3 className="repo-des">{'jhghghgjh njghgjgjhgjh'}</h3>
                 <div className="profile-repo-items">
                   <h3>
                     <a href={html_url} target="_blank" rel='noopener noreferrer'>

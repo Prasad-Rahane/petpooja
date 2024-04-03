@@ -44,7 +44,7 @@ class Profile extends Component {
             {/* Passing props data (full json data) from parent to child */}
           </div>
           <div className="repo-container">
-            <h1 className="repo-title">Food<span>Fire</span> App Github Repository</h1>
+            <h1 className="repo-title">Pet<span>Pooja</span> App Github Repository</h1>
             {/* Passing props followers from parent to child */}
             <ProfileRepoClass followers={userInfo} />
           </div>
