@@ -11,7 +11,7 @@ import Error from "./components/Error";
 import Contact from "./components/Contact";
 import Login from "./components/Login";
 import RestaurantMenu from "./components/RestaurantMenu";
-import Profile from "./omponents/ProfileClass";
+import Profile from "./components/ProfileClass";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"; // for routing our page import createBrowserRouter and RouterProvider for providing router & Outlet for children component for nested routing
 
 /* My Food App structure will look like this, 
