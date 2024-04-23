@@ -2,7 +2,7 @@ import Header from './components/Header';
 import { Toaster } from 'react-hot-toast';
 import { Outlet, useLocation } from 'react-router-dom';
 import Footer from './components/Footer';
-import useOnlineStatus from './hooks/useOnlineStatus';
+import useOnlineStatus from './Hooks/useOnlineStatus';
 import { useLayoutEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { closeMenu } from './features/app/appSlice';

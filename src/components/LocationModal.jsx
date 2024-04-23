@@ -3,7 +3,7 @@ import { useRef, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { setAddress } from '../features/address/addressSlice';
 import { closeLocationModal } from '../features/app/appSlice';
-import useRestaurants from '../hooks/useRestaurants';
+import useRestaurants from '../Hooks/useRestaurants';
 import { getLocation } from '../utils/getLocaltion';
 import { GET_RESTAURANTS_URL } from '../utils/constants';
 

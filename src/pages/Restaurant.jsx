@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import RestaurantInfo from '../components/RestaurantInfo';
 import ShimmerRestaurant from '../components/shimmers/ShimmerRestaurant';
 import RestaurantMenu from '../components/RestaurantMenu';
-import useRestaurantsMenu from '../hooks/useRestaurantsMenu';
+import useRestaurantsMenu from '../Hooks/useRestaurantsMenu';
 
 const Restaurant = () => {
   const { id } = useParams();
