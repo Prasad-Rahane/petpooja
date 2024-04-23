@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { selectAddress } from '../features/address/addressSlice';
-import { GET_RESTAURANTS_URL } from '../utils/constants';
+import { GET_RESTAURANTS_URL } from '../Utils/constants';
 
 const useRestaurants = () => {
   const { address } = useSelector(selectAddress);

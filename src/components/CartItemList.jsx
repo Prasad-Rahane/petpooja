@@ -5,7 +5,7 @@ import {
   removeFromCart,
   selectItemsInCart,
 } from '../features/cart/cartSlice';
-import { CDN_URL } from '../utils/constants';
+import { CDN_URL } from '../Utils/constants';
 
 const CartItemList = () => {
   const cartItems = useSelector(selectItemsInCart);

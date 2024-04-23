@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { StarIcon } from '@heroicons/react/24/solid';
-import { CDN_URL } from '../utils/constants';
+import { CDN_URL } from '../Utils/constants';
 
 const RestaurantCard = ({ restaurant }) => {
   const { info } = restaurant;

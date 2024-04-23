@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { GET_RESTAURANTS_URL } from '../utils/constants';
+import { GET_RESTAURANTS_URL } from '../Utils/constants';
 
 const useRestaurantsMenu = (restId) => {
   const [restaurant, setRestaurant] = useState(null);

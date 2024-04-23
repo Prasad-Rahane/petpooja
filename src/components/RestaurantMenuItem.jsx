@@ -2,7 +2,7 @@ import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/solid';
 import toast from 'react-hot-toast';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../features/cart/cartSlice';
-import { CDN_URL } from '../utils/constants';
+import { CDN_URL } from '../Utils/constants';
 
 const RestaurantMenuItem = ({ items, index, activeIndex, setActiveIndex }) => {
   // console.log(activeIndex, index);

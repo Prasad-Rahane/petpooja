@@ -4,8 +4,8 @@ import { useDispatch } from 'react-redux';
 import { setAddress } from '../features/address/addressSlice';
 import { closeLocationModal } from '../features/app/appSlice';
 import useRestaurants from '../Hooks/useRestaurants';
-import { getLocation } from '../utils/getLocaltion';
-import { GET_RESTAURANTS_URL } from '../utils/constants';
+import { getLocation } from '../Utils/getLocaltion';
+import { GET_RESTAURANTS_URL } from '../Utils/constants';
 
 const LocationModal = () => {
   const modalRef = useRef();

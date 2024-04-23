@@ -1,7 +1,7 @@
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import { useEffect, useRef, useState } from 'react';
 import useRestaurants from '../Hooks/useRestaurants';
-import { GET_RESTAURANTS_URL } from '../utils/constants';
+import { GET_RESTAURANTS_URL } from '../Utils/constants';
 import BannerList from './BannerList';
 import FoodList from './FoodList';
 import RestaurantList from './RestaurantList';

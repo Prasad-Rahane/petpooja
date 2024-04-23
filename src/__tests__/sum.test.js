@@ -1,4 +1,4 @@
-import { sum } from '../utils/sum';
+import { sum } from '../Utils/sum';
 
 test('Check sum of two positive numbers', () => {
   expect(sum(2, 5)).toBe(7);
